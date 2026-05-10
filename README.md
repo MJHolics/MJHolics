@@ -39,6 +39,16 @@
 
 ---
 
+### 🚗 [Driver Monitoring System Agent](https://github.com/MJHolics/dms-agent)
+> 실시간 운전자 상태 감지 멀티에이전트 시스템
+
+- 웹캠 영상 → EAR/MAR/PERCLOS + YOLOv8 → LangGraph 에이전트 판단 → 경고 레벨 출력
+- 자율주행 경험(YOLO/MediaPipe)을 LangGraph 에이전트 구조에 결합
+- Ollama 로컬 LLM으로 API 비용 없이 실시간 추론 (RTX 4080 Super)
+- `MediaPipe` `YOLOv8` `LangGraph` `Ollama` `FastAPI` `Docker`
+
+---
+
 ## 학습 방식
 
 단순히 모델을 학습시키는 것에 그치지 않고, **실제 서비스 가능한 형태**로 만드는 것을 목표로 합니다.
